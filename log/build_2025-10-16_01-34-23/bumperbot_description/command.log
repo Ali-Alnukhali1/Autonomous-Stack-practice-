@@ -1,6 +1,0 @@
-Invoking command in '/home/ali/ali_ws/autonomous/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/ali_ws/autonomous/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/ali/ali_ws/autonomous/install/bumperbot_description
-Invoked command in '/home/ali/ali_ws/autonomous/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/ali_ws/autonomous/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/ali/ali_ws/autonomous/install/bumperbot_description
-Invoking command in '/home/ali/ali_ws/autonomous/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/ali_ws/autonomous/build/bumperbot_description -- -j24 -l24
-Invoked command in '/home/ali/ali_ws/autonomous/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/ali_ws/autonomous/build/bumperbot_description -- -j24 -l24
-Invoking command in '/home/ali/ali_ws/autonomous/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ali/ali_ws/autonomous/build/bumperbot_description
-Invoked command in '/home/ali/ali_ws/autonomous/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ali/ali_ws/autonomous/build/bumperbot_description

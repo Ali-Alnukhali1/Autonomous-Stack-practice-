@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:77 (file):
-  file INSTALL cannot find
-  "/home/ali/ali_ws/autonomous/src/bumperbot_controller/bumperbot_controller/simple_controller.py":
-  No such file or directory.
-
-[0m
