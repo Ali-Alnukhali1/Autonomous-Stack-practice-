@@ -1,4 +1,0 @@
-Invoking command in '/home/ali/ali_ws/autonomous/src/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/ali_ws/autonomous/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/ali/ali_ws/autonomous/src/install/bumperbot_msgs
-Invoked command in '/home/ali/ali_ws/autonomous/src/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/ali_ws/autonomous/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/ali/ali_ws/autonomous/src/install/bumperbot_msgs
-Invoking command in '/home/ali/ali_ws/autonomous/src/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/ali_ws/autonomous/src/build/bumperbot_msgs -- -j24 -l24
-Invoked command in '/home/ali/ali_ws/autonomous/src/build/bumperbot_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/ali_ws/autonomous/src/build/bumperbot_msgs -- -j24 -l24
