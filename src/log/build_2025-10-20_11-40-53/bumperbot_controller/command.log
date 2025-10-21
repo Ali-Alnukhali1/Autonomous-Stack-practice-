@@ -1,0 +1,1 @@
+Invoking command in '/home/ali/ali_ws/autonomous/src/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/ali_ws/autonomous/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/ali/ali_ws/autonomous/src/install/bumperbot_controller

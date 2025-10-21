@@ -1,0 +1,70 @@
+[0.007s] Invoking command in '/home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/ali_ws/autonomous/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.218s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.219s] -- Detecting CXX compile features
+[0.219s] -- Detecting CXX compile features - done
+[0.220s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.307s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.358s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.389s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.399s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.453s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.455s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.524s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.544s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.569s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.574s] -- Looking for pthread.h
+[0.653s] -- Looking for pthread.h - found
+[0.653s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.728s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.730s] -- Found Threads: TRUE  
+[0.803s] -- Configuring done
+[0.809s] -- Generating done
+[0.812s] -- Build files have been written to: /home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples
+[0.817s] Invoked command in '/home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/ali_ws/autonomous/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples
+[0.818s] Invoking command in '/home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples -- -j24 -l24
+[0.864s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[0.865s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[0.870s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[2.355s] [ 66%] [32m[1mLinking CXX executable simple_parameter[0m
+[2.435s] [ 66%] Built target simple_parameter
+[2.996s] [ 83%] [32m[1mLinking CXX executable simple_publisher[0m
+[3.096s] [ 83%] Built target simple_publisher
+[4.803s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[4.979s] [100%] Built target simple_subscriber
+[4.990s] Invoked command in '/home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples -- -j24 -l24
+[4.991s] Invoking command in '/home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples
+[5.000s] -- Install configuration: ""
+[5.000s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[5.001s] -- Set runtime path of "/home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[5.001s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[5.003s] -- Set runtime path of "/home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[5.003s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[5.003s] -- Set runtime path of "/home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[5.003s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[5.003s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[5.003s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[5.004s] -- Installing: /home/ali/ali_ws/autonomous/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[5.005s] Invoked command in '/home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ali/ali_ws/autonomous/build/bumperbot_cpp_examples

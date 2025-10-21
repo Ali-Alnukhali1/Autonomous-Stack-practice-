@@ -1,0 +1,45 @@
+[0.363s] Invoking command in '/home/ali/ali_ws/autonomous/src/bumperbot_py_examples': PYTHONPATH=/home/ali/ali_ws/autonomous/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build install --record /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[0.487s] running egg_info
+[0.487s] creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[0.487s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[0.487s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[0.487s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[0.487s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[0.487s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[0.487s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.488s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.489s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.489s] running build
+[0.489s] running build_py
+[0.489s] creating /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build
+[0.489s] creating /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib
+[0.489s] creating /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.489s] copying bumperbot_py_examples/simple_publisher.py -> /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.489s] copying bumperbot_py_examples/simple_subscriber.py -> /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.489s] copying bumperbot_py_examples/simple_parameter.py -> /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.489s] copying bumperbot_py_examples/__init__.py -> /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.489s] running install
+[0.490s] running install_lib
+[0.491s] creating /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.491s] copying /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.491s] copying /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.491s] copying /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_parameter.py -> /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.491s] copying /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.491s] byte-compiling /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[0.491s] byte-compiling /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[0.491s] byte-compiling /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[0.491s] byte-compiling /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc
+[0.492s] running install_data
+[0.492s] creating /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/share/ament_index
+[0.492s] creating /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/share/ament_index/resource_index
+[0.492s] creating /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.492s] copying resource/bumperbot_py_examples -> /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.492s] copying package.xml -> /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/share/bumperbot_py_examples
+[0.492s] running install_egg_info
+[0.493s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[0.493s] running install_scripts
+[0.508s] Installing simple_parameter script to /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.508s] Installing simple_publisher script to /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.508s] Installing simple_subscriber script to /home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.508s] writing list of installed files to '/home/ali/ali_ws/autonomous/build/bumperbot_py_examples/install.log'
+[0.531s] Invoked command in '/home/ali/ali_ws/autonomous/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/ali/ali_ws/autonomous/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ali/ali_ws/autonomous/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/build install --record /home/ali/ali_ws/autonomous/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

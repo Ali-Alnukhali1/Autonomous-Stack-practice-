@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[ 33%] Built target simple_subscriber
+[ 66%] Built target simple_publisher
+[ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[01m[K/home/ali/ali_ws/autonomous/src/bumperbot_cpp_examples/src/simple_parameter.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult SimpleParameter::paramChangeCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/ali/ali_ws/autonomous/src/bumperbot_cpp_examples/src/simple_parameter.cpp:33:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kparamget_name[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_name[m[K’?
+   33 |             if([01;31m[Kparamget_name[m[K() == "simple_string_param" && param.get_type() == rclcpp::ParameterType::PARAMETER_STRING)
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+      |                [32m[Kget_name[m[K
+gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

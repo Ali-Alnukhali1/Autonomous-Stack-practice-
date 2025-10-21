@@ -1,0 +1,50 @@
+[0.009s] Invoking command in '/home/ali/ali_ws/autonomous/src/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/ali_ws/autonomous/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/ali/ali_ws/autonomous/src/install/bumperbot_msgs
+[0.014s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.093s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.105s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.107s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.109s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.114s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.120s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.139s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.256s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.256s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.256s]   bumperbot_msgs --arguments-file
+[0.256s]   /home/ali/ali_ws/autonomous/src/build/bumperbot_msgs/rosidl_adapter__arguments__bumperbot_msgs.json
+[0.256s]   --output-dir
+[0.256s]   /home/ali/ali_ws/autonomous/src/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs
+[0.257s]   --output-file
+[0.257s]   /home/ali/ali_ws/autonomous/src/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs.idls)
+[0.257s]   returned error code 1:
+[0.257s] 
+[0.257s]   Error with: bumperbot_msgs GetTransform_Response boolsuccess
+[0.257s] 
+[0.257s]   Traceback (most recent call last):
+[0.257s] 
+[0.257s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.257s]       return _run_code(code, main_globals, None,
+[0.257s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.257s]       exec(code, run_globals)
+[0.257s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.257s]       sys.exit(main())
+[0.257s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.257s]       abs_idl_file = convert_to_idl(
+[0.257s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.257s]       return convert_srv_to_idl(
+[0.257s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.257s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.257s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 863, in parse_service_string
+[0.257s]       response_message = parse_message_string(
+[0.257s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 510, in parse_message_string
+[0.257s]       raise InvalidFieldDefinition(line)
+[0.257s] 
+[0.257s]   rosidl_adapter.parser.InvalidFieldDefinition: boolsuccess
+[0.257s] 
+[0.257s] Call Stack (most recent call first):
+[0.257s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.257s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.257s] 
+[0.257s] [0m
+[0.257s] -- Configuring incomplete, errors occurred!
+[0.257s] See also "/home/ali/ali_ws/autonomous/src/build/bumperbot_msgs/CMakeFiles/CMakeOutput.log".
+[0.260s] Invoked command in '/home/ali/ali_ws/autonomous/src/build/bumperbot_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/ali_ws/autonomous/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/ali/ali_ws/autonomous/src/install/bumperbot_msgs

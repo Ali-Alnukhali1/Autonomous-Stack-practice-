@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/ali/ali_ws/autonomous/src/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/ali_ws/autonomous/src/build/bumperbot_cpp_examples -- -j24 -l24
+[0.041s] [ 12%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[0.042s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[0.042s] [ 37%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[1.608s] [ 62%] [32m[1mLinking CXX executable simple_parameter[0m
+[1.678s] [ 62%] Built target simple_parameter
+[2.281s] [ 75%] [32m[1mLinking CXX executable simple_publisher[0m
+[2.420s] [ 75%] Built target simple_publisher
+[4.182s] [ 87%] [32m[1mLinking CXX executable simple_subscriber[0m
+[4.203s] [100%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[4.372s] [100%] Built target simple_subscriber
+[4.418s] [100%] Built target simple_turtlesim_kinematics

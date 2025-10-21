@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[ 25%] Built target simple_parameter
+[ 50%] Built target simple_turtlesim_kinematics
+[ 75%] Built target simple_subscriber
+[100%] Built target simple_publisher
+-- Install configuration: ""
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/include/include
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+-- Set runtime path of "/home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+-- Set runtime path of "/home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+-- Set runtime path of "/home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+-- Set runtime path of "/home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+-- Installing: /home/ali/ali_ws/autonomous/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml

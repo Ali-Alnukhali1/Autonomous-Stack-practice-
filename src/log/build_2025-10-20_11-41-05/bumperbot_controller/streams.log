@@ -1,0 +1,4 @@
+[0.011s] Invoking command in '/home/ali/ali_ws/autonomous/src/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/ali_ws/autonomous/src/build/bumperbot_controller -- -j24 -l24
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[4.741s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[4.946s] [100%] Built target simple_controller

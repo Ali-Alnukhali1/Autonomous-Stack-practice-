@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+505f0939b05a3f7aa6e3513ce4b291d1 CMakeFiles/bumperbot_description_uninstall
