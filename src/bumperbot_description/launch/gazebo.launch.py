@@ -22,7 +22,8 @@ def generate_launch_description():
 
     gazebo_resource_path = SetEnvironmentVariable(
         name="GZ_SIM_RESOURCE_PATH",
-        value=[c
+        value=[
+            str(Path(bumperbot_description).parent.resolve())
             ]
         )
     
@@ -67,6 +68,10 @@ def generate_launch_description():
         executable="parameter_bridge",
         arguments=[
             "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/imu@sensor_msgs/msg/Imu[gz.msgs.IMU"
+        ],
+        remappings=[
+            ('/imu', '/imu/out'),
         ]
     )
 
@@ -76,5 +81,5 @@ def generate_launch_description():
         robot_state_publisher_node,
         gazebo,
         gz_spawn_entity,
-        gz_ros2_bridge,
+        gz_ros2_bridge
     ])
