@@ -1,3 +1,4 @@
+import os
 from launch import LaunchDescription
 from ament_index_python.packages import get_package_share_directory
 from launch_ros.actions import Node
@@ -10,7 +11,8 @@ def generate_launch_description():
     #values that will be used later
     map_name = LaunchConfiguration("map_name")
     use_sim_time = LaunchConfiguration("use_sim_time")
-    lifecycle_nodes = ["map_server"]
+    amcl_config = LaunchConfiguration("amcl_config")
+    lifecycle_nodes = ["map_server","amcl"]
 
     #set arguments and their default value
     map_name_arg = DeclareLaunchArgument(
@@ -21,6 +23,16 @@ def generate_launch_description():
     use_sim_time_arg = DeclareLaunchArgument(
         "use_sim_time",
         default_value="true"
+    )
+
+    amcl_config_arg = DeclareLaunchArgument(
+        "amcl_config",
+        default_value=os.path.join(
+            get_package_share_directory("bumperbot_localization"),
+            "config",
+            "amcl.yaml"
+        ),
+        description="Full path to amcl yaml file to load"
     )
 
     #construct the path to map settings 
@@ -43,6 +55,19 @@ def generate_launch_description():
         ],
     )
 
+    #start the amcl node for localization
+    nav2_amcl = Node(
+        package="nav2_amcl",
+        executable="amcl",
+        name="amcl",
+        output="screen",
+        emulate_tty=True,
+        parameters=[
+            amcl_config,
+            {"use_sim_time": use_sim_time},
+        ],
+    )
+
     #start the lifecycle manager and set its settings 
     nav2_lifecycle_manager = Node(
         package="nav2_lifecycle_manager",
@@ -60,7 +85,9 @@ def generate_launch_description():
     return LaunchDescription([
         map_name_arg,
         use_sim_time_arg,
-        nav2_map_server,  
+        amcl_config_arg,
+        nav2_map_server,
+        nav2_amcl,
         nav2_lifecycle_manager,
     ])
 
